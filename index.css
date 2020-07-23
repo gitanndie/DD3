@@ -1,0 +1,47 @@
+body { 
+    background: orange;
+
+}
+
+header {
+    background-color: blanchedalmond;
+    color: palevioletred;
+    opacity: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: monospace;
+    width: 100%;
+    height: 85px;
+}
+
+#contenedor {
+    background-color: pink;
+    margin: 40px;
+    width: auto;
+    height: 350px;
+    display: flex;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    width: 100%;
+    height: 85px;
+}
+
+footer {
+    background-color: plum;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin:40px;
+    width: auto;
+    height: 40px;
+    position: relative;
+    bottom: -250px;
+}

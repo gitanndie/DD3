@@ -1,0 +1,56 @@
+body {
+    background-color: khaki;
+}
+
+#grid {
+    padding: 15px;
+    height: 500px;
+    font-weight: bolder;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+}
+
+#grid article {
+    color: rgb(244, 241, 247);
+    /* background-color: rgb(183, 230, 231); */
+    padding: 20px;
+}
+
+#hijo1 {
+    background-color: black !important;
+
+}
+
+#hijo2 {
+    background-color: pink;
+    
+}
+
+#hijo3 {
+    background-color: black;
+}
+
+#hijo4 {
+    background-color: pink;
+}
+
+#hijo5 {
+    background-color: black;
+}
+
+#hijo6 {
+    background-color: pink;
+}
+
+#hijo7 {
+    background-color: black;
+}
+
+#hijo8 {
+    background-color: pink;
+}
+
+#hijo9 {
+    background-color: black;
+}

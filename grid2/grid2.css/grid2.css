@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+#pagina {
+    height: 700px;
+    display: grid;
+    grid-template-areas: "header header" 
+                        "nav section"
+                        "nav footer";
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-rows: 200px 1fr 100px;
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-template-columns: 200px;
+}
+
+header {
+    background-color: violet;
+    grid-area: header;
+}
+
+nav {
+    background-color: chocolate;
+    grid-area: nav;
+}
+
+section { 
+    background-color: darkcyan;
+    grid-area: section;
+}
+
+footer {
+    background-color: palevioletred;
+    grid-area: footer;
+}

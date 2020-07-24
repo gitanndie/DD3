@@ -1,0 +1,40 @@
+body {
+    /* padding: 1%; */
+    background-color: lightcoral;
+
+}
+
+#cabecera {
+    background-color: lightgray;
+    padding: 5%;
+    grid-area: header;
+}
+
+#principal {
+    display: grid;
+    margin: 3%;
+    grid-template-areas: "header header header"
+                        "seccion1 seccion1 seccion2"
+                        "footer footer footer";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 1fr 80px;
+    gap: 20px;
+}
+
+#contenedor-1 {
+    background-color: lightskyblue;
+    padding: 5%;
+    grid-area: seccion1;
+}
+
+#contenedor-2 {
+    background-color: rgb(194, 178, 199);
+    padding: 5%;
+    grid-area: seccion2;
+}
+
+#pie {
+    background-color: rgb(243, 245, 133);
+    padding: 5%;
+    grid-area: footer;
+}
